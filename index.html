@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thị Huyền</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="image/heart-fill.svg">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Gửi bé iuu.</strong>
+                        <p>
+                            Tặng em một hay nhiều bông hoa, thậm chí là chẳng bông hoa nào.
+                            Em vẫn là bông hoa đẹp nhất của ai đó, của cuộc đời này. Mong cho em thật hạnh phúc và an nhiên mỗi ngày chứ không chỉ là ngày hôm nay. Yêu emm nhiều !!
+                            <!-- Anh bic bài này hay lứmm, bé iuu nghe với anh nhaa.
+                            <a href="https://www.youtube.com/watch?v=fyMgBQioTLo">nghe ở đâyy</a> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
